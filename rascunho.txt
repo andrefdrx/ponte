@@ -1,0 +1,36 @@
+<i className='fas fa-bars'></i>
+        <i className='fas fa-times'></i>
+
+
+
+class Navbar extends Component() = ()  => {
+  state={clicked: false}
+  return (
+    <nav>
+      <a><img src={logomenu} alt='menu' />  </a>
+
+      <div>
+        <ul id='navitem'>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html">Cadastre-se</a></li>
+          <li><a href="index.html">Editar perfil</a></li>
+          <li><a href="index.html">Visualizar perfil</a></li>
+          <li><a href="index.html">Buscar</a></li>
+          <li><a href="index.html">Termos de uso</a></li>
+          <li><a href="index.html">Sobre</a></li>
+          <li><a href="index.html">Sair</a></li>
+        </ul>
+      </div>
+
+      <div id='mobile'>
+        <i
+          id='bar'
+          className={this.state.clicked ? 'fas fa-time' : 'fas fa-bars'}
+        ></i>
+      </div>
+
+    </nav>
+  );
+};
+
+export default Navbar        

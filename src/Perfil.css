@@ -1,0 +1,105 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .telaperfil {
+    width: 100vw;
+    height: 100vh;
+    align-items: safe center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .telaperfil .navbar {
+    display: flex;
+    height: 4vh;
+  }
+
+  .telaperfil .perfilimg {
+    width: 235px;
+    height: 235px;
+    flex-shrink: 0; 
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .telaperfil .imgp {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .telaperfil .nomeano {
+    width: 242px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px; 
+  }  
+
+  .telaperfil .polo {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: top;
+    background-color: #F8F8F8;
+    color: #000000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px; 
+    padding: 20px;
+    width: 95vw;
+    margin-bottom: 20px;
+  }  
+
+  .telaperfil .bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background-color: #F8F8F8;
+    color: #000000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px; 
+    padding: 20px;
+    width: 95vw;
+    height: 100vw;
+    margin-bottom: 100px;
+  }  
+
+  .telaperfil .divbutton{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 100vw;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .telaperfil .buttonno {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  
+  .telaperfil .buttonok {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    flex-direction: column;
+  }

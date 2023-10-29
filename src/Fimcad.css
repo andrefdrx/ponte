@@ -1,0 +1,91 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .telafimcad {
+  
+    width: 100vw;
+    height: 100vh;
+    align-items: safe center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .telafimcad .navbar {
+    display: flex;
+    height: 4vh;
+  }
+
+  .telafimcad .msgfimcad {
+    width: 50vw;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 60px;
+    
+  }
+  
+  .telafimcad .instrufimcad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: top;
+    margin-top: 30px;
+    background-color: #F8F8F8;
+    color: #000000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 8px; 
+    padding: 20px;
+    width: 95vw;
+    height: 50vh;
+    margin-bottom: 50px;
+  }  
+
+  #intlist p {
+    margin-bottom: 40px;
+  }
+
+  .telafimcad .button1 {
+    width: 242px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 95px;
+    background: #F95757;
+    border: none;
+    margin-bottom: 50px;
+  
+    font-size: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9; 
+  }
+  
+  .telafimcad .button2 {
+    width: 242px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 95px;
+    border: none;
+    background: #6800E4;
+    margin-bottom: 50px;
+  
+    font-size: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9; 
+  }

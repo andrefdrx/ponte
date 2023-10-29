@@ -1,0 +1,117 @@
+html, body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .telacadastro {
+    width: 100vw;
+    height: 100vh;
+    align-items: safe center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .telacadastro .navbar {
+    display: flex;
+    height: 4vh;
+  }                                 
+
+  .telacadastro .cadastro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 242px;
+    margin-bottom: 22px;
+    
+  }
+
+  .telacadastro .form-field1 {
+    display: flex;
+    padding: 20px;
+    width: 70vw;
+    height: 58px;
+    margin-bottom: 5px;
+    border-width: 5px;
+    border-color: #000000;
+    background: #6800E4; 
+    border-radius: 7px;
+  }
+
+  .telacadastro .form-field2, .form-field3, .form-field4, .form-field5, .form-field6, .form-field7, .form-field8, .form-field9 {
+    display: flex;
+    padding: 20px;
+    width: 70vw;
+    height: 58px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-color: #6800E4;
+    background: #F8F8F8; 
+    border-radius: 7px;
+  }
+
+  .telacadastro .form-field10 {
+    display: flex;
+    padding: 20px;
+    width: 70vw;
+    height: 150px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-color: #6800E4;
+    background: #F8F8F8; 
+    border-radius: 7px;
+  }
+  .telacadastro .button1 {
+    width: 242px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 95px;
+    border: none;
+    background: #6800E4;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0,3s;
+  }
+
+  .button1:hover {
+    opacity: 1;
+  }
+
+  .telacadastro .aviso {
+    width: 70vw;
+    height: 20px;
+    flex-shrink: 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9; 
+  }
+
+  #avi li {
+    list-style: none;
+  }
+
+  #avi li a{
+    color: #F95757;
+  }
+
+  .telacadastro .button2 {
+    width: 242px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 95px;
+    border-width: 2px;
+    border-color: #a8a8a8;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #969696;
+    margin-bottom: 10px;
+  }
