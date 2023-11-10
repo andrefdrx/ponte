@@ -9,6 +9,11 @@ html, body {
   font-family: 'Inter', sans-serif;
 }
 
+.logop .img {
+  width: 5vw;
+  height: 5vh;
+}
+
 .entrar {
   width: 100vw;
   height: 100vh;
@@ -23,16 +28,22 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  margin-top: 100px;
+  margin-top: 40px;
+}
+
+.logop img {
+  width: 300px;
+  height: 100px;
+  object-fit: fill;
 }
 
 .entrar .intro {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: top;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 
   color: #F8F8F8;
   text-align: center;
@@ -41,6 +52,10 @@ html, body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+#intro p {
+  background: #F8F8F8;
 }
 
 Form{
@@ -78,7 +93,7 @@ Form{
   border-radius: 95px;
   background: #6800E4;
   border: none;
-  margin-bottom: 100px;
+  margin-bottom: 22px;
   font-size: 20px;
   color: #D9D9D9;
   cursor: pointer;
@@ -99,12 +114,10 @@ Form{
   flex-shrink: 0;
   border-radius: 95px;
   border: none;
-  background: #6800E4;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #D9D9D9;
   cursor: pointer;
   opacity: 0.9;
   transition: 0,3s;

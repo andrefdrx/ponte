@@ -19,6 +19,8 @@ function Entrar() {
 axios.post("url", {
   email: values.email
   senha: values.senha
+
+  
 })
 
 */}
@@ -26,13 +28,13 @@ axios.post("url", {
   return (
     <div className="entrar"> 
       <div className="logop">
-        <img src={logo} alt='Ponte' />      
+        <img className='pontelogo' src={logo} alt='Ponte' />      
       </div>
 
       <div className="intro">
-      <p>
-        Bem vindo a POnTE! Somos uma comunidade de estudantes de cursos da modalidade EAD dispostos a reduzir distâncias entre alunos. Aqui você será acolhido, poderá trocar ideias e experiências. Vamos lá?
-      </p>
+        <p>
+          Bem vindo a POnTE! Somos uma comunidade de estudantes de cursos da modalidade EAD dispostos a reduzir distâncias entre alunos. Aqui você será acolhido, poderá trocar ideias e experiências. Vamos lá?
+        </p>
       </div>
       
       <Formik initialValues={{}} onSubmit={clickEntar} >
