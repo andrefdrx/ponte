@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ponte/static/css/main.ae60ff63.css",
-    "main.js": "/ponte/static/js/main.c0ba0496.js",
+    "main.js": "/ponte/static/js/main.6c517957.js",
     "static/media/totosmart.png": "/ponte/static/media/totosmart.1a50f8c911934a38e5e7.png",
     "static/media/logo.png": "/ponte/static/media/logo.83acfad08f1ca06e58fc.png",
     "index.html": "/ponte/index.html",
     "static/media/okico.svg": "/ponte/static/media/okico.bd6e1d3d1b9405f67f5f5c6321301176.svg",
     "static/media/noico.svg": "/ponte/static/media/noico.7de296fa8022727e79c80859550f2b9d.svg",
     "main.ae60ff63.css.map": "/ponte/static/css/main.ae60ff63.css.map",
-    "main.c0ba0496.js.map": "/ponte/static/js/main.c0ba0496.js.map"
+    "main.6c517957.js.map": "/ponte/static/js/main.6c517957.js.map"
   },
   "entrypoints": [
     "static/css/main.ae60ff63.css",
-    "static/js/main.c0ba0496.js"
+    "static/js/main.6c517957.js"
   ]
 }
