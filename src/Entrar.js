@@ -24,7 +24,7 @@ axios.post("url", {
 */}
 
   return (
-    <div className="entrar">
+    <div className="entrar"> 
       <div className="logop">
         <img src={logo} alt='Ponte' />      
       </div>
@@ -55,14 +55,15 @@ axios.post("url", {
             />  
           </div>
           <button className="button1" type="submit">ENTRAR</button>
+          <div className='buttondiv2'>
+            <ul id="cadlink">
+              <li className="button2"><Link to="/cadastrar">CADASTRAR-SE</Link></li>
+            </ul>
+          </div>
         </Form>
       </Formik>
       
-      <div className='buttondiv2'>
-        <ul id="cadlink">
-          <li className="button2"><Link to="/cadastrar">CADASTRAR-SE</Link></li>
-        </ul>
-      </div>
+      
     </div>
  
   )

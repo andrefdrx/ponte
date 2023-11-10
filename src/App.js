@@ -16,6 +16,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Entrar />}/>
+          <Route path='/ponte' element={<Entrar />}/>
           <Route path='/info' element={<Informa />}/>
           <Route path='/confirma' element={<Confirma />}/>
           <Route path='/fimcad' element={<Fimcad />}/>
